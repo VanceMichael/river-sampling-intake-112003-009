@@ -1,22 +1,51 @@
 [
   {
+    "known": "09:05:00",
+    "event": "STORM7",
+    "id": "PAIR-1",
+    "upstream": [
+      "Q4",
+      "peak"
+    ],
+    "downstream": [
+      "Q8",
+      "peak"
+    ],
+    "travel_seconds": [
+      120,
+      360
+    ]
+  },
+  {
+    "known": "09:05:00",
+    "event": "STORM7",
+    "id": "S-ONE",
     "station": "Q4",
     "phase": "rise",
-    "arrive_by": "09:13"
+    "arrive_by": "09:13:00"
   },
   {
+    "known": "09:05:00",
+    "event": "STORM7",
+    "id": "S-TWO",
     "station": "Q4",
     "phase": "peak",
-    "arrive_by": "09:16"
+    "arrive_by": "09:16:00"
   },
   {
+    "known": "09:05:00",
+    "event": "STORM7",
+    "id": "S-THREE",
     "station": "Q4",
     "phase": "fall",
-    "arrive_by": "09:48"
+    "arrive_by": "09:48:00"
   },
   {
+    "known": "09:05:00",
+    "event": "STORM7",
+    "id": "S-FOUR",
     "station": "Q8",
     "phase": "fall",
-    "arrive_by": "09:55"
+    "arrive_by": "09:55:00"
   }
 ]

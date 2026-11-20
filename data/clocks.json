@@ -1,23 +1,42 @@
 [
   {
+    "id": "CLK1",
     "cab": "M1",
-    "rev": 1,
+    "epoch": "boot-A",
+    "known": "09:05:00",
+    "local": [
+      "08:30:00",
+      "10:00:00"
+    ],
     "offset_seconds": [
       -30,
       90
     ]
   },
   {
+    "id": "CLK2",
+    "replaces": "CLK1",
     "cab": "M1",
-    "rev": 2,
+    "epoch": "boot-A",
+    "known": "09:13:00",
+    "local": [
+      "08:30:00",
+      "10:00:00"
+    ],
     "offset_seconds": [
       -15,
       15
     ]
   },
   {
+    "id": "CLK3",
     "cab": "M2",
-    "rev": 1,
+    "epoch": "boot-A",
+    "known": "09:05:00",
+    "local": [
+      "09:00:00",
+      "09:26:00"
+    ],
     "offset_seconds": [
       0,
       10

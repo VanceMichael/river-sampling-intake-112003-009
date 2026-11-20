@@ -1,0 +1,26 @@
+{
+  "id": "B-In",
+  "station": "Q8",
+  "cab": "M2",
+  "epoch": "boot-A",
+  "range": [
+    1,
+    2
+  ],
+  "events": [
+    {
+      "seq": 1,
+      "at": "09:10:00",
+      "kind": "position",
+      "offset": 1,
+      "slot": 1
+    },
+    {
+      "seq": 2,
+      "at": "09:13:05",
+      "kind": "pulse",
+      "id": "T1",
+      "step": 1
+    }
+  ]
+}

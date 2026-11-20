@@ -1,0 +1,26 @@
+{
+  "id": "A-Out",
+  "station": "Q4",
+  "cab": "M1",
+  "epoch": "boot-A",
+  "range": [
+    7,
+    8
+  ],
+  "events": [
+    {
+      "seq": 7,
+      "at": "09:17:10",
+      "kind": "position",
+      "offset": 1,
+      "slot": 3
+    },
+    {
+      "seq": 8,
+      "at": "09:17:25",
+      "kind": "pulse",
+      "id": "T4",
+      "step": 7
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "B-New",
+  "station": "Q8",
+  "cab": "M2",
+  "epoch": "boot-B",
+  "range": [
+    1,
+    2
+  ],
+  "events": [
+    {
+      "seq": 1,
+      "at": "09:25:00",
+      "kind": "restart",
+      "offset": 0
+    },
+    {
+      "seq": 2,
+      "at": "09:25:40",
+      "kind": "pulse",
+      "id": "T1",
+      "step": 1
+    }
+  ]
+}

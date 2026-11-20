@@ -1,39 +1,79 @@
 [
   {
+    "known": "09:05:00",
     "box": "BX10",
     "station": "Q4",
-    "bottles": [
-      "S1",
-      "S2",
-      "S3"
-    ],
-    "blank": "C1",
-    "scope": [
-      "S1",
-      "S3"
-    ]
+    "cab": "M1",
+    "epoch": "boot-A",
+    "slots": {
+      "1": "S1",
+      "2": "S2",
+      "3": "S3"
+    },
+    "blank": {
+      "id": "C1",
+      "accepted": true,
+      "covers": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    },
+    "cold_by": "09:38:00",
+    "expected_delivery": "09:32:00"
   },
   {
-    "box": "BX11",
-    "station": "Q4",
-    "bottles": [
-      "S2",
-      "S4"
-    ],
-    "blank": "C2",
-    "scope": [
-      "S4"
-    ]
-  },
-  {
+    "known": "09:05:00",
     "box": "BX12",
     "station": "Q8",
-    "bottles": [
-      "S1"
-    ],
-    "blank": "C3",
-    "scope": [
-      "S1"
-    ]
+    "cab": "M2",
+    "epoch": "boot-A",
+    "slots": {
+      "1": "S1"
+    },
+    "blank": {
+      "id": "C3",
+      "accepted": true,
+      "covers": [
+        "S1"
+      ]
+    },
+    "cold_by": "09:34:00",
+    "expected_delivery": "09:30:00"
+  },
+  {
+    "known": "09:14:00",
+    "box": "BX10",
+    "station": "Q4",
+    "cab": "M1",
+    "epoch": "boot-A",
+    "correction": "BL-4",
+    "blank": {
+      "id": "C1",
+      "accepted": true,
+      "covers": [
+        "S1",
+        "S3"
+      ]
+    }
+  },
+  {
+    "known": "09:22:00",
+    "box": "BX11",
+    "station": "Q4",
+    "cab": "field",
+    "epoch": "manual",
+    "slots": {
+      "4": "S4"
+    },
+    "blank": {
+      "id": "C2",
+      "accepted": true,
+      "covers": [
+        "S4"
+      ]
+    },
+    "cold_by": "09:42:00",
+    "expected_delivery": "09:37:00"
   }
 ]

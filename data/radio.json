@@ -1,0 +1,239 @@
+{
+  "initial": "09:05:00",
+  "summaries": [
+    {
+      "station": "Q4",
+      "cab": "M1",
+      "epoch": "boot-A",
+      "id": "T1",
+      "seen": "09:05:00",
+      "local_time": "08:44:05"
+    },
+    {
+      "station": "Q4",
+      "cab": "M1",
+      "epoch": "boot-A",
+      "id": "T2",
+      "seen": "09:05:00",
+      "local_time": "09:02:52"
+    },
+    {
+      "station": "Q4",
+      "cab": "M1",
+      "epoch": "boot-A",
+      "id": "T3",
+      "seen": "09:05:00",
+      "local_time": "09:09:12"
+    },
+    {
+      "station": "Q4",
+      "cab": "M1",
+      "epoch": "boot-A",
+      "id": "T4",
+      "seen": "09:05:00",
+      "local_time": "09:17:25"
+    },
+    {
+      "station": "Q4",
+      "cab": "M1",
+      "epoch": "boot-A",
+      "id": "T1",
+      "seen": "09:12:00",
+      "local_time": "08:44:05"
+    },
+    {
+      "station": "Q4",
+      "cab": "M1",
+      "epoch": "boot-A",
+      "id": "T2",
+      "seen": "09:12:00",
+      "local_time": "09:02:52"
+    },
+    {
+      "station": "Q8",
+      "cab": "M2",
+      "epoch": "boot-A",
+      "id": "T1",
+      "seen": "09:09:00",
+      "local_time": "09:13:05"
+    },
+    {
+      "station": "Q8",
+      "cab": "M2",
+      "epoch": "boot-B",
+      "id": "T1",
+      "seen": "09:24:00",
+      "local_time": "09:25:40"
+    }
+  ],
+  "pages": [
+    {
+      "id": "A-In",
+      "station": "Q4",
+      "cab": "M1",
+      "epoch": "boot-A",
+      "channel": "tower",
+      "listed": "09:05:00",
+      "ready": "09:05:00",
+      "expires": "09:12:00",
+      "range": [
+        1,
+        4
+      ],
+      "file": "originals/cab/A-In.json",
+      "replaces": ""
+    },
+    {
+      "id": "A-Mid",
+      "station": "Q4",
+      "cab": "M1",
+      "epoch": "boot-A",
+      "channel": "relay",
+      "listed": "09:05:00",
+      "ready": "09:10:00",
+      "expires": "09:15:00",
+      "range": [
+        5,
+        6
+      ],
+      "file": "originals/cab/A-Mid.json",
+      "replaces": ""
+    },
+    {
+      "id": "A-Out",
+      "station": "Q4",
+      "cab": "M1",
+      "epoch": "boot-A",
+      "channel": "tower",
+      "listed": "09:05:00",
+      "ready": "09:19:00",
+      "expires": "09:55:00",
+      "range": [
+        7,
+        8
+      ],
+      "file": "originals/cab/A-Out.json",
+      "replaces": ""
+    },
+    {
+      "id": "A-Fix",
+      "station": "Q4",
+      "cab": "M1",
+      "epoch": "boot-A",
+      "channel": "relay",
+      "listed": "09:12:00",
+      "ready": "09:15:00",
+      "expires": "09:26:00",
+      "range": [
+        1,
+        4
+      ],
+      "file": "originals/cab/A-Fix.json",
+      "replaces": "A-In"
+    },
+    {
+      "id": "B-In",
+      "station": "Q8",
+      "cab": "M2",
+      "epoch": "boot-A",
+      "channel": "tower",
+      "listed": "09:09:00",
+      "ready": "09:12:00",
+      "expires": "09:28:00",
+      "range": [
+        1,
+        2
+      ],
+      "file": "originals/cab/B-In.json",
+      "replaces": ""
+    },
+    {
+      "id": "B-New",
+      "station": "Q8",
+      "cab": "M2",
+      "epoch": "boot-B",
+      "channel": "tower",
+      "listed": "09:24:00",
+      "ready": "09:26:00",
+      "expires": "09:50:00",
+      "range": [
+        1,
+        2
+      ],
+      "file": "originals/cab/B-New.json",
+      "replaces": ""
+    }
+  ],
+  "slots": [
+    {
+      "slot": "T1",
+      "channel": "tower",
+      "from": "09:05:00",
+      "until": "09:12:00",
+      "pages": 1
+    },
+    {
+      "slot": "T2",
+      "channel": "tower",
+      "from": "09:12:00",
+      "until": "09:16:00",
+      "pages": 1
+    },
+    {
+      "slot": "T3",
+      "channel": "tower",
+      "from": "09:19:00",
+      "until": "10:00:00",
+      "pages": 2
+    },
+    {
+      "slot": "R1",
+      "channel": "relay",
+      "from": "09:10:00",
+      "until": "09:15:00",
+      "pages": 1
+    },
+    {
+      "slot": "R2",
+      "channel": "relay",
+      "from": "09:15:00",
+      "until": "09:26:00",
+      "pages": 1
+    }
+  ],
+  "gaps": [
+    {
+      "station": "Q4",
+      "cab": "M1",
+      "epoch": "boot-A",
+      "range": [
+        5,
+        6
+      ],
+      "known": "09:05:00",
+      "state": "wait_relay"
+    },
+    {
+      "station": "Q8",
+      "cab": "M2",
+      "epoch": "boot-A",
+      "range": [
+        3,
+        4
+      ],
+      "known": "09:20:00",
+      "state": "no_records"
+    },
+    {
+      "station": "Q8",
+      "cab": "M2",
+      "epoch": "boot-B",
+      "range": [
+        3,
+        4
+      ],
+      "known": "09:26:00",
+      "state": "offline"
+    }
+  ]
+}

@@ -1,20 +1,74 @@
-[
-  {
-    "ref": "Q4P",
-    "phase": "peak",
-    "event": "issued",
-    "at": "09:09"
-  },
-  {
-    "ref": "Q4P",
-    "event": "accepted",
-    "at": "09:12"
-  },
-  {
-    "ref": "Q4P",
-    "event": "sample",
-    "bottle": "S4",
-    "box": "BX11",
-    "at": "09:18"
-  }
-]
+{
+  "trips": [
+    {
+      "trip": "RIVER-1",
+      "book_by": "09:12:00",
+      "stations": {
+        "Q4": "09:15:00",
+        "Q8": "09:22:00"
+      },
+      "box_slots": [
+        "V1"
+      ],
+      "first_visible": "09:14:00"
+    },
+    {
+      "trip": "RIVER-2",
+      "book_by": "09:27:00",
+      "stations": {
+        "Q4": "09:32:00",
+        "Q8": "09:35:00"
+      },
+      "box_slots": [
+        "V2",
+        "V3"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "trip": "RIVER-1",
+      "station": "Q4",
+      "seen": "09:25:00",
+      "state": "sampled",
+      "actual": {
+        "time": "09:18:00",
+        "box": "BX11",
+        "bottle": "S4"
+      }
+    }
+  ],
+  "lab": [
+    {
+      "known": "09:23:00",
+      "station": "Q4",
+      "box": "BX10",
+      "bottle": "S2",
+      "state": "rejected",
+      "reason": "空白样范围已更正"
+    },
+    {
+      "known": "09:25:00",
+      "station": "Q8",
+      "box": "BX12",
+      "bottle": "S1",
+      "state": "received",
+      "receipt": "LAB-12",
+      "arrival": "09:23:00",
+      "basis": [
+        "B-In",
+        "CLK3",
+        "C3"
+      ]
+    },
+    {
+      "known": "09:25:00",
+      "station": "Q4",
+      "box": "BX11",
+      "bottle": "S4",
+      "state": "field_sample",
+      "trip": "RIVER-1",
+      "at": "09:18:00"
+    }
+  ]
+}

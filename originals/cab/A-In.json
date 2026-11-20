@@ -1,0 +1,40 @@
+{
+  "id": "A-In",
+  "station": "Q4",
+  "cab": "M1",
+  "epoch": "boot-A",
+  "range": [
+    1,
+    4
+  ],
+  "events": [
+    {
+      "seq": 1,
+      "at": "08:44:02",
+      "kind": "position",
+      "offset": 1,
+      "slot": 1
+    },
+    {
+      "seq": 2,
+      "at": "08:44:05",
+      "kind": "pulse",
+      "id": "T1",
+      "step": 1
+    },
+    {
+      "seq": 3,
+      "at": "09:02:50",
+      "kind": "valve",
+      "offset": 1,
+      "state": "jam"
+    },
+    {
+      "seq": 4,
+      "at": "09:02:52",
+      "kind": "pulse",
+      "id": "T2",
+      "step": 3
+    }
+  ]
+}
