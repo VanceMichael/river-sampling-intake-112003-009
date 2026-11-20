@@ -1,0 +1,20 @@
+[
+  {
+    "ref": "Q4P",
+    "phase": "peak",
+    "event": "issued",
+    "at": "09:09"
+  },
+  {
+    "ref": "Q4P",
+    "event": "accepted",
+    "at": "09:12"
+  },
+  {
+    "ref": "Q4P",
+    "event": "sample",
+    "bottle": "S4",
+    "box": "BX11",
+    "at": "09:18"
+  }
+]

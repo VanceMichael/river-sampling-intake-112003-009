@@ -1,0 +1,39 @@
+[
+  {
+    "box": "BX10",
+    "station": "Q4",
+    "bottles": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "blank": "C1",
+    "scope": [
+      "S1",
+      "S3"
+    ]
+  },
+  {
+    "box": "BX11",
+    "station": "Q4",
+    "bottles": [
+      "S2",
+      "S4"
+    ],
+    "blank": "C2",
+    "scope": [
+      "S4"
+    ]
+  },
+  {
+    "box": "BX12",
+    "station": "Q8",
+    "bottles": [
+      "S1"
+    ],
+    "blank": "C3",
+    "scope": [
+      "S1"
+    ]
+  }
+]

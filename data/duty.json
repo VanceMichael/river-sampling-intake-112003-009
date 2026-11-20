@@ -1,0 +1,22 @@
+[
+  {
+    "station": "Q4",
+    "phase": "rise",
+    "arrive_by": "09:13"
+  },
+  {
+    "station": "Q4",
+    "phase": "peak",
+    "arrive_by": "09:16"
+  },
+  {
+    "station": "Q4",
+    "phase": "fall",
+    "arrive_by": "09:48"
+  },
+  {
+    "station": "Q8",
+    "phase": "fall",
+    "arrive_by": "09:55"
+  }
+]

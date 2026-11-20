@@ -1,0 +1,26 @@
+[
+  {
+    "cab": "M1",
+    "rev": 1,
+    "offset_seconds": [
+      -30,
+      90
+    ]
+  },
+  {
+    "cab": "M1",
+    "rev": 2,
+    "offset_seconds": [
+      -15,
+      15
+    ]
+  },
+  {
+    "cab": "M2",
+    "rev": 1,
+    "offset_seconds": [
+      0,
+      10
+    ]
+  }
+]

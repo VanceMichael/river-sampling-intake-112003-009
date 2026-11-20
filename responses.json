@@ -1,0 +1,63 @@
+{
+  "/cab/catalog": [
+    [
+      200,
+      {
+        "sources": [
+          [
+            "Q4",
+            "M1",
+            "/cab/M1-3.json"
+          ],
+          [
+            "Q8",
+            "M2",
+            "/cab/M2-1.json"
+          ]
+        ],
+        "repairs": []
+      }
+    ],
+    [
+      200,
+      {
+        "sources": [
+          [
+            "Q4",
+            "M1",
+            "/cab/M1-3.json"
+          ],
+          [
+            "Q8",
+            "M2",
+            "/cab/M2-1.json"
+          ]
+        ],
+        "repairs": [
+          "/cab/repair-M1-3.json"
+        ]
+      }
+    ]
+  ],
+  "/cab/repair-M1-3.json": [
+    [
+      404,
+      {
+        "state": "pending"
+      }
+    ],
+    [
+      200,
+      {
+        "cab": "M1",
+        "replace_step": [
+          "09:02:50",
+          2,
+          "confirmed",
+          "S1"
+        ],
+        "evidence": "camera-44"
+      }
+    ]
+  ]
+}
